@@ -400,7 +400,7 @@ span.middot {
 .postcontent { width: 860px; }
 .postcontent.bothsidebar { width: 580px; }
 .sidebar { width: 240px; }
-.col_full { width: 100%; }
+.col_full { width: 80%; }
 .col_half { width: 48%; }
 .col_one_third { width: 30.63%; }
 .col_two_third { width: 65.33%; }
@@ -445,7 +445,8 @@ body.stretched .container-fullwidth {
 .col_full {
 	clear: both;
 	float: none;
-	margin-right: 0;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .postcontent.col_last,
@@ -12173,4 +12174,3 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
-
